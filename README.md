@@ -47,6 +47,11 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
+    |-- privacy-policy/
+    |-- refund-policy/
+    |-- return-policy/
+    |-- shipping-policy/
+    |-- terms/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
