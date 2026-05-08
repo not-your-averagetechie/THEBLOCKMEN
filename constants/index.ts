@@ -214,6 +214,36 @@ export const FOOTER_DATA = [
       },
     ],
   },
+  {
+    title: "Legal",
+    data: [
+      {
+        name: "Terms & Conditions",
+        icon: null,
+        link: "/terms",
+      },
+      {
+        name: "Privacy Policy",
+        icon: null,
+        link: "/privacy-policy",
+      },
+      {
+        name: "Refund Policy",
+        icon: null,
+        link: "/refund-policy",
+      },
+      {
+        name: "Return Policy",
+        icon: null,
+        link: "/return-policy",
+      },
+      {
+        name: "Shipping Policy",
+        icon: null,
+        link: "/shipping-policy",
+      },
+    ],
+  },
 ] as const;
 
 export const NAV_LINKS = [
