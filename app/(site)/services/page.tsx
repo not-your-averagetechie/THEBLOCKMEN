@@ -61,7 +61,7 @@ export default function ServicesPage() {
             </div>
             <p className="mt-3 text-xs text-gray-500">
               Custom scopes priced separately.{" "}
-              <a href="mailto:talent@theblockmen.com" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
               for a detailed quote.
             </p>
           </section>
@@ -89,7 +89,7 @@ export default function ServicesPage() {
             </div>
             <p className="mt-3 text-xs text-gray-500">
               One-time setup fee of ₹50,000 applies on first engagement.{" "}
-              <a href="mailto:talent@theblockmen.com" className="text-purple-400 hover:text-purple-300 underline transition-colors">Request a quote</a>.
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Request a quote</a>.
             </p>
           </section>
 
@@ -116,7 +116,7 @@ export default function ServicesPage() {
             </div>
             <p className="mt-3 text-xs text-gray-500">
               Monthly maintenance retainer available at ₹40,000/month.{" "}
-              <a href="mailto:talent@theblockmen.com" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
               to get started.
             </p>
           </section>
@@ -162,10 +162,10 @@ export default function ServicesPage() {
               within 1–2 business days.
             </p>
             <a
-              href="mailto:talent@theblockmen.com"
+              href="mailto:hello@blockmen.io"
               className="inline-block px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-medium transition-colors text-sm"
             >
-              talent@theblockmen.com
+              hello@blockmen.io
             </a>
           </section>
         </div>

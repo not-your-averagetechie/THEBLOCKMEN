@@ -4,6 +4,41 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Policy pages: override dark-theme Tailwind classes on white background ─── */
+.policy-content main {
+  padding-top: 1.5rem !important;
+}
+.policy-content h1,
+.policy-content h2,
+.policy-content h3,
+.policy-content h4,
+.policy-content h5,
+.policy-content h6,
+.policy-content strong {
+  color: #111827 !important;
+}
+.policy-content p,
+.policy-content li,
+.policy-content address {
+  color: #374151 !important;
+}
+.policy-content .text-white { color: #111827 !important; }
+.policy-content .text-gray-300 { color: #374151 !important; }
+.policy-content .text-gray-400 { color: #6b7280 !important; }
+.policy-content .text-gray-500 { color: #6b7280 !important; }
+.policy-content .text-purple-400 { color: #7c3aed !important; }
+.policy-content .text-purple-300 { color: #6d28d9 !important; }
+.policy-content .text-yellow-200 { color: #78350f !important; }
+.policy-content [class*="bg-white/"] { background-color: #f3f4f6 !important; }
+.policy-content [class*="bg-purple-500/"] { background-color: #f5f3ff !important; }
+.policy-content [class*="bg-yellow-500/"] { background-color: #fefce8 !important; }
+.policy-content [class*="border-white/"] { border-color: #e5e7eb !important; }
+.policy-content [class*="border-purple-500/"] { border-color: #ddd6fe !important; }
+.policy-content table { border-collapse: collapse; width: 100%; }
+.policy-content th { background-color: #f3f4f6 !important; color: #111827 !important; }
+.policy-content td { color: #374151 !important; }
+.policy-content a { color: #7c3aed !important; }
+
 @media print {
   /* Hide navigation, footer, and interactive elements */
   nav,
