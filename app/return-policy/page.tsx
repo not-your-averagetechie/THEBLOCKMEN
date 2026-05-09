@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PrintButton from "@/components/sub/print-button";
 
 export const metadata: Metadata = {
   title: "Return Policy | BLOCKMEN",
@@ -10,9 +11,12 @@ export default function ReturnPolicyPage() {
   return (
     <main className="min-h-screen w-full pt-24 pb-16 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
-          Return Policy
-        </h1>
+        <div className="flex items-start justify-between gap-4 mb-2">
+          <h1 className="text-3xl md:text-4xl font-bold text-white">
+            Return Policy
+          </h1>
+          <PrintButton />
+        </div>
         <p className="text-gray-400 mb-10 text-sm">Last updated: May 2026</p>
 
         <div className="space-y-8 text-gray-300 leading-relaxed">

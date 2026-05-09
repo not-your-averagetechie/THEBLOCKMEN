@@ -4,6 +4,67 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  /* Hide navigation, footer, and interactive elements */
+  nav,
+  footer,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* White background, black text for clean PDF output */
+  body,
+  main {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+
+  /* Reset padding added for fixed navbar */
+  main {
+    padding-top: 16px !important;
+  }
+
+  /* Make headings and text readable on white */
+  h1, h2, h3, h4, h5, h6 {
+    color: #111111 !important;
+  }
+
+  p, li, td, th {
+    color: #333333 !important;
+  }
+
+  a {
+    color: #6b21a8 !important;
+    text-decoration: underline;
+  }
+
+  /* Show full URL after links */
+  a[href^="http"]:after,
+  a[href^="mailto"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #555555;
+  }
+
+  /* Remove decorative backgrounds */
+  .bg-purple-500\/5,
+  .bg-white\/5,
+  [class*="bg-"] {
+    background: #f8f8f8 !important;
+    border-color: #cccccc !important;
+  }
+
+  /* Page breaks */
+  section {
+    break-inside: avoid;
+  }
+
+  /* Remove star background canvas */
+  canvas {
+    display: none !important;
+  }
+}
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
