@@ -28,8 +28,30 @@ export const Footer = () => {
           ))}
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
-          &copy; BLOCKMEN {new Date().getFullYear()}. All rights reserved.
+        <div className="mt-6 mb-2 w-full border-t border-white/10 pt-6 flex flex-col items-center gap-2 text-center">
+          <p className="text-[13px] text-gray-400">
+            <span className="text-white font-medium">BLOCKMEN</span> &mdash;
+            A-1004, Rama Metro Life Maxima, Tathawade, Pune – 411033,
+            Maharashtra, India
+          </p>
+          <p className="text-[13px] text-gray-400">
+            <a
+              href="mailto:hello@blockmen.io"
+              className="text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              hello@blockmen.io
+            </a>
+            &nbsp;&bull;&nbsp;
+            <a
+              href="https://www.theblockmen.com"
+              className="text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              www.theblockmen.com
+            </a>
+          </p>
+          <p className="text-[13px] text-gray-500 mt-1">
+            &copy; BLOCKMEN {new Date().getFullYear()}. All rights reserved.
+          </p>
         </div>
       </div>
     </div>

@@ -203,12 +203,17 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Partner with us",
+        name: "Services",
         icon: null,
-        link: "mailto:hello@blockmen.io",
+        link: "/services",
       },
       {
-        name: "Contact",
+        name: "Contact Us",
+        icon: null,
+        link: "/contact",
+      },
+      {
+        name: "Partner with us",
         icon: null,
         link: "mailto:hello@blockmen.io",
       },

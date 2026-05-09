@@ -31,10 +31,17 @@ export default function RefundPolicyPage() {
             <p>
               Cancellations will only be considered if the request is made
               within{" "}
-              <span className="text-white font-medium">7 days</span> of placing
-              the order. However, cancellation requests may not be entertained
-              if the services have already been initiated or communicated to our
-              delivery teams.
+              <span className="text-white font-medium">7 calendar days</span>{" "}
+              of placing the order. However, cancellation requests may not be
+              entertained if the services have already been initiated or
+              communicated to our delivery teams. To cancel, email{" "}
+              <a
+                href="mailto:hello@blockmen.io"
+                className="text-purple-400 hover:text-purple-300 underline transition-colors"
+              >
+                hello@blockmen.io
+              </a>{" "}
+              with your order reference.
             </p>
           </section>
 
@@ -73,10 +80,14 @@ export default function RefundPolicyPage() {
             </h2>
             <p>
               In case of any refunds approved by{" "}
-              <span className="text-purple-400 font-medium">BLOCKMEN</span>, it
-              will take{" "}
-              <span className="text-white font-medium">7 days</span> for the
-              refund to be processed to you.
+              <span className="text-purple-400 font-medium">BLOCKMEN</span>,
+              the refund will be processed within{" "}
+              <span className="text-white font-medium">
+                5–7 business days
+              </span>{" "}
+              of approval. Refunds are credited back to the original payment
+              method used at the time of purchase. You will receive an email
+              confirmation once the refund has been initiated.
             </p>
           </section>
 
