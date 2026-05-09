@@ -47,20 +47,14 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
-    |-- contact/
-    |-- privacy-policy/
-    |-- refund-policy/
-    |-- return-policy/
-    |-- services/
-    |-- shipping-policy/
-    |-- terms/
+    |-- (policies)/
+    |-- (site)/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
     |-- icon1.png
     |-- icon2.png
     |-- layout.tsx
-    |-- page.tsx
   |- components/
     |-- main/
     |-- sub/
