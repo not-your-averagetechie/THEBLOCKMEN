@@ -23,10 +23,17 @@ export default function ServicesPage() {
             BLOCKMEN is a registered blockchain and AI integration consultancy
             operating from Pune, India. We design and deploy infrastructure that
             sits at the intersection of on-chain technology and machine
-            learning. All engagements are scoped, quoted, and delivered as
-            professional services. Pricing is provided on request based on
-            project scope.
+            learning. All services are delivered as professional engagements and
+            priced in Indian Rupees (INR). GST applicable as per prevailing
+            rates.
           </p>
+
+          {/* Pricing note */}
+          <div className="p-4 rounded-xl border border-yellow-500/20 bg-yellow-500/5 text-sm text-yellow-200">
+            All prices are indicative starting rates in INR (exclusive of GST).
+            Final pricing is confirmed in a written proposal after a discovery
+            call. Payment is accepted via bank transfer, UPI, or payment gateway.
+          </div>
 
           {/* Service 1 */}
           <section className="p-6 rounded-2xl border border-white/10 bg-white/5">
@@ -47,16 +54,15 @@ export default function ServicesPage() {
               <li>Front-end dashboard for market creation and resolution</li>
               <li>Audit-ready Solidity / Rust contracts</li>
             </ul>
-            <p className="mt-4 text-sm text-gray-400">
-              <span className="text-white font-medium">Pricing:</span> Custom
-              quote based on chain, complexity, and delivery timeline.{" "}
-              <a
-                href="mailto:hello@blockmen.io"
-                className="text-purple-400 hover:text-purple-300 underline transition-colors"
-              >
-                Contact us
-              </a>{" "}
-              to discuss.
+            <div className="mt-4 p-3 rounded-lg bg-white/5 border border-white/10">
+              <p className="text-sm text-white font-medium mb-1">Starting price</p>
+              <p className="text-2xl font-bold text-purple-400">₹2,50,000</p>
+              <p className="text-xs text-gray-500 mt-1">+ GST &bull; One-time engagement</p>
+            </div>
+            <p className="mt-3 text-xs text-gray-500">
+              Custom scopes priced separately.{" "}
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
+              for a detailed quote.
             </p>
           </section>
 
@@ -76,16 +82,14 @@ export default function ServicesPage() {
               <li>Signal delivery via API, webhook, or Telegram bot</li>
               <li>Backtesting and performance attribution</li>
             </ul>
-            <p className="mt-4 text-sm text-gray-400">
-              <span className="text-white font-medium">Pricing:</span> Project-
-              or retainer-based. Minimum engagement: 30 days.{" "}
-              <a
-                href="mailto:hello@blockmen.io"
-                className="text-purple-400 hover:text-purple-300 underline transition-colors"
-              >
-                Request a quote
-              </a>
-              .
+            <div className="mt-4 p-3 rounded-lg bg-white/5 border border-white/10">
+              <p className="text-sm text-white font-medium mb-1">Starting price</p>
+              <p className="text-2xl font-bold text-purple-400">₹75,000 / month</p>
+              <p className="text-xs text-gray-500 mt-1">+ GST &bull; Minimum 30-day engagement</p>
+            </div>
+            <p className="mt-3 text-xs text-gray-500">
+              One-time setup fee of ₹50,000 applies on first engagement.{" "}
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Request a quote</a>.
             </p>
           </section>
 
@@ -105,15 +109,14 @@ export default function ServicesPage() {
               <li>Gas optimisation and MEV protection</li>
               <li>Monitoring dashboards and alerting</li>
             </ul>
-            <p className="mt-4 text-sm text-gray-400">
-              <span className="text-white font-medium">Pricing:</span> Custom
-              quote based on chain coverage and strategy complexity.{" "}
-              <a
-                href="mailto:hello@blockmen.io"
-                className="text-purple-400 hover:text-purple-300 underline transition-colors"
-              >
-                Contact us
-              </a>{" "}
+            <div className="mt-4 p-3 rounded-lg bg-white/5 border border-white/10">
+              <p className="text-sm text-white font-medium mb-1">Starting price</p>
+              <p className="text-2xl font-bold text-purple-400">₹1,50,000</p>
+              <p className="text-xs text-gray-500 mt-1">+ GST &bull; One-time engagement</p>
+            </div>
+            <p className="mt-3 text-xs text-gray-500">
+              Monthly maintenance retainer available at ₹40,000/month.{" "}
+              <a href="mailto:hello@blockmen.io" className="text-purple-400 hover:text-purple-300 underline transition-colors">Contact us</a>{" "}
               to get started.
             </p>
           </section>

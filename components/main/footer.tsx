@@ -6,6 +6,16 @@ export const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
+        {/* Mandatory policy bar — visible to automated crawlers */}
+        <div className="w-full flex flex-row flex-wrap justify-center gap-x-6 gap-y-2 py-3 border-b border-white/10 text-[13px] mb-4">
+          <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
+          <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms &amp; Conditions</Link>
+          <Link href="/refund-policy" className="text-gray-400 hover:text-white transition-colors">Refund Policy</Link>
+          <Link href="/return-policy" className="text-gray-400 hover:text-white transition-colors">Return Policy</Link>
+          <Link href="/shipping-policy" className="text-gray-400 hover:text-white transition-colors">Shipping Policy</Link>
+          <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link>
+          <Link href="/services" className="text-gray-400 hover:text-white transition-colors">Services &amp; Pricing</Link>
+        </div>
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           {FOOTER_DATA.map((column) => (
             <div
