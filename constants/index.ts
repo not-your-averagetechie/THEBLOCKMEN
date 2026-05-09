@@ -215,7 +215,7 @@ export const FOOTER_DATA = [
       {
         name: "Partner with us",
         icon: null,
-        link: "mailto:hello@blockmen.io",
+        link: "mailto:talent@theblockmen.com",
       },
     ],
   },

@@ -46,10 +46,10 @@ export const Footer = () => {
           </p>
           <p className="text-[13px] text-gray-400">
             <a
-              href="mailto:hello@blockmen.io"
+              href="mailto:talent@theblockmen.com"
               className="text-purple-400 hover:text-purple-300 transition-colors"
             >
-              hello@blockmen.io
+              talent@theblockmen.com
             </a>
             &nbsp;&bull;&nbsp;
             <a

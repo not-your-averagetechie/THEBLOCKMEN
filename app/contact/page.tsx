@@ -63,10 +63,10 @@ export default function ContactPage() {
                   Business Email
                 </p>
                 <a
-                  href="mailto:hello@blockmen.io"
+                  href="mailto:talent@theblockmen.com"
                   className="text-purple-400 hover:text-purple-300 underline transition-colors"
                 >
-                  hello@blockmen.io
+                  talent@theblockmen.com
                 </a>
               </div>
 
@@ -88,10 +88,10 @@ export default function ContactPage() {
               For all business enquiries, partnership discussions, or technical
               support, email us at{" "}
               <a
-                href="mailto:hello@blockmen.io"
+                href="mailto:talent@theblockmen.com"
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
-                hello@blockmen.io
+                talent@theblockmen.com
               </a>
               . We aim to respond within 1–2 business days.
             </p>

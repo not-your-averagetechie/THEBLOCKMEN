@@ -47,16 +47,16 @@ export default function RefundPolicyPage() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">
-              Damaged or Defective Services
+              Defective or Incomplete Services
             </h2>
             <p>
-              In case of receipt of a service that is defective, incomplete, or
-              not as described, please report to our customer service team. The
-              request would be entertained once our team has checked and
-              determined the issue at its own end. This should be reported
-              within{" "}
-              <span className="text-white font-medium">7 days</span> of receipt
-              or delivery.
+              If a delivered service is defective, incomplete, or materially
+              different from what was agreed in writing, you must notify our
+              support team within{" "}
+              <span className="text-white font-medium">7 calendar days</span>{" "}
+              of delivery. Include your order reference, a description of the
+              issue, and any supporting evidence. Our team will review and
+              respond within 3 business days.
             </p>
           </section>
 
@@ -104,17 +104,25 @@ export default function RefundPolicyPage() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">
-              Contact Us
+              Contact for Refund Enquiries
             </h2>
-            <p>
-              For any refund or cancellation requests, please contact us at:{" "}
-              <a
-                href="mailto:hello@blockmen.io"
-                className="text-purple-400 hover:text-purple-300 underline transition-colors"
-              >
-                hello@blockmen.io
-              </a>
-            </p>
+            <div className="p-4 rounded-xl border border-white/10 bg-white/5 space-y-1 text-sm">
+              <p><strong className="text-white">Business Name:</strong> BLOCKMEN</p>
+              <p>
+                <strong className="text-white">Email:</strong>{" "}
+                <a
+                  href="mailto:hello@blockmen.io"
+                  className="text-purple-400 hover:text-purple-300 underline transition-colors"
+                >
+                  hello@blockmen.io
+                </a>
+              </p>
+              <p><strong className="text-white">Support Hours:</strong> Monday – Friday, 9:00 – 18:00 IST</p>
+              <p>
+                <strong className="text-white">Address:</strong> A-1004, Rama
+                Metro Life Maxima, Tathawade, Pune – 411033, Maharashtra, India
+              </p>
+            </div>
           </section>
         </div>
       </div>

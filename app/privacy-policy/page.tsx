@@ -131,6 +131,37 @@ export default function PrivacyPolicyPage() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">
+              Cookies &amp; Tracking Technologies
+            </h2>
+            <p>
+              Our Platform may use cookies and similar tracking technologies
+              (such as web beacons and pixels) to enhance your browsing
+              experience and to collect usage analytics. Cookies are small data
+              files stored on your device.
+            </p>
+            <ul className="list-disc list-outside ml-5 mt-3 space-y-2 text-sm">
+              <li>
+                <strong className="text-white">Essential cookies:</strong>{" "}
+                Required for the Platform to function correctly (e.g., session
+                management).
+              </li>
+              <li>
+                <strong className="text-white">Analytics cookies:</strong>{" "}
+                We may use third-party analytics services (such as Google
+                Analytics or Vercel Analytics) to understand how visitors
+                interact with our Platform. These services may collect data such
+                as pages visited, time on site, and referring URLs.
+              </li>
+            </ul>
+            <p className="mt-3">
+              You may disable cookies through your browser settings. Please
+              note that disabling cookies may affect the functionality of
+              certain parts of the Platform.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white mb-3">
               Data Deletion and Retention
             </h2>
             <p>
@@ -185,23 +216,37 @@ export default function PrivacyPolicyPage() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">
+              Governing Law
+            </h2>
+            <p>
+              This Privacy Policy is governed by and construed in accordance
+              with the laws of India, including but not limited to the
+              Information Technology Act, 2000 and the Information Technology
+              (Reasonable Security Practices and Procedures and Sensitive
+              Personal Data or Information) Rules, 2011.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white mb-3">
               Grievance Officer / Contact
             </h2>
             <p>
               For any queries or concerns regarding this Privacy Policy, please
               contact us:
             </p>
-            <div className="mt-3 p-4 rounded-xl border border-white/10 bg-white/5 space-y-1">
+            <div className="mt-3 p-4 rounded-xl border border-white/10 bg-white/5 space-y-1 text-sm">
               <p>
-                <span className="text-white font-medium">Company:</span>{" "}
+                <strong className="text-white">Business Name:</strong>{" "}
                 BLOCKMEN
               </p>
               <p>
-                <span className="text-white font-medium">Address:</span>{" "}
-                A-1004 Rama Metro Life Maxima, Tathawade, Pune
+                <strong className="text-white">Address:</strong>{" "}
+                A-1004, Rama Metro Life Maxima, Tathawade, Pune – 411033,
+                Maharashtra, India
               </p>
               <p>
-                <span className="text-white font-medium">Email:</span>{" "}
+                <strong className="text-white">Email:</strong>{" "}
                 <a
                   href="mailto:hello@blockmen.io"
                   className="text-purple-400 hover:text-purple-300 underline transition-colors"
@@ -210,8 +255,8 @@ export default function PrivacyPolicyPage() {
                 </a>
               </p>
               <p>
-                <span className="text-white font-medium">Hours:</span> Monday –
-                Friday, 9:00 – 18:00
+                <strong className="text-white">Hours:</strong> Monday –
+                Friday, 9:00 – 18:00 IST
               </p>
             </div>
           </section>

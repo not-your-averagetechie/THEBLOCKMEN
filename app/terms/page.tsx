@@ -161,19 +161,67 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">
-              Contact Us
+              Governing Law
             </h2>
             <p>
-              All concerns or communications relating to these Terms must be
-              communicated to us using the contact information provided on this
-              website:{" "}
-              <a
-                href="mailto:hello@blockmen.io"
-                className="text-purple-400 hover:text-purple-300 underline transition-colors"
-              >
-                hello@blockmen.io
-              </a>
+              These Terms of Use and any dispute or claim arising out of or in
+              connection with them, including non-contractual disputes or claims,
+              shall be governed by and construed in accordance with the laws of
+              India. The Information Technology Act, 2000, the Consumer
+              Protection Act, 2019, and other applicable Indian statutes shall
+              apply where relevant.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white mb-3">
+              Dispute Resolution
+            </h2>
+            <p>
+              In the event of any dispute, controversy, or claim arising out of
+              or relating to these Terms, or the breach, termination, or
+              validity thereof, the parties shall first attempt to resolve the
+              matter through good-faith negotiation. Either party may initiate
+              this process by sending written notice to the other party.
+            </p>
+            <p className="mt-3">
+              If the dispute is not resolved within{" "}
+              <strong className="text-white">30 days</strong> of such written
+              notice, it shall be referred to and finally resolved by
+              arbitration in accordance with the Arbitration and Conciliation
+              Act, 1996 (India). The seat of arbitration shall be Pune,
+              Maharashtra, India. The language of arbitration shall be English.
+            </p>
+            <p className="mt-3">
+              Nothing in this clause shall prevent either party from seeking
+              interim or injunctive relief from a court of competent
+              jurisdiction. Subject to the arbitration clause above, all
+              disputes shall be subject to the exclusive jurisdiction of the
+              courts in Pune, Maharashtra, India.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white mb-3">
+              Contact Us
+            </h2>
+            <div className="p-4 rounded-xl border border-white/10 bg-white/5 space-y-1 text-sm">
+              <p><strong className="text-white">Business Name:</strong> BLOCKMEN</p>
+              <p>
+                <strong className="text-white">Email:</strong>{" "}
+                <a
+                  href="mailto:hello@blockmen.io"
+                  className="text-purple-400 hover:text-purple-300 underline transition-colors"
+                >
+                  hello@blockmen.io
+                </a>
+              </p>
+              <p><strong className="text-white">Website:</strong> www.theblockmen.com</p>
+              <p>
+                <strong className="text-white">Address:</strong> A-1004, Rama
+                Metro Life Maxima, Tathawade, Pune – 411033, Maharashtra, India
+              </p>
+            </div>
           </section>
         </div>
       </div>
