@@ -40,10 +40,10 @@ export default function RefundPolicyPage() {
               entertained if the services have already been initiated or
               communicated to our delivery teams. To cancel, email{" "}
               <a
-                href="mailto:hello@blockmen.io"
+                href="mailto:talent@theblockmen.com"
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
-                hello@blockmen.io
+                talent@theblockmen.com
               </a>{" "}
               with your order reference.
             </p>
@@ -115,10 +115,10 @@ export default function RefundPolicyPage() {
               <p>
                 <strong className="text-white">Email:</strong>{" "}
                 <a
-                  href="mailto:hello@blockmen.io"
+                  href="mailto:talent@theblockmen.com"
                   className="text-purple-400 hover:text-purple-300 underline transition-colors"
                 >
-                  hello@blockmen.io
+                  talent@theblockmen.com
                 </a>
               </p>
               <p><strong className="text-white">Support Hours:</strong> Monday – Friday, 9:00 – 18:00 IST</p>

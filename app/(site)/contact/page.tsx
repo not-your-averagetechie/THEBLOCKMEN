@@ -30,7 +30,7 @@ export default function ContactPage() {
                 <p className="text-xs uppercase tracking-widest text-gray-500 mb-1">
                   Business Name
                 </p>
-                <p className="text-white font-medium">BLOCKMEN</p>
+                <p className="text-white font-medium">BLOCKMEN / SACHIN YADAV</p>
               </div>
 
               <div>
@@ -72,6 +72,18 @@ export default function ContactPage() {
 
               <div>
                 <p className="text-xs uppercase tracking-widest text-gray-500 mb-1">
+                  Phone
+                </p>
+                <a
+                  href="tel:+917057480940"
+                  className="text-purple-400 hover:text-purple-300 underline transition-colors"
+                >
+                  +91 70574 80940
+                </a>
+              </div>
+
+              <div>
+                <p className="text-xs uppercase tracking-widest text-gray-500 mb-1">
                   Support Hours
                 </p>
                 <p className="text-white">Monday – Friday, 9:00 – 18:00 IST</p>
@@ -92,6 +104,13 @@ export default function ContactPage() {
                 className="text-purple-400 hover:text-purple-300 underline transition-colors"
               >
                 hello@blockmen.io
+              </a>{" "}
+              or call{" "}
+              <a
+                href="tel:+917057480940"
+                className="text-purple-400 hover:text-purple-300 underline transition-colors"
+              >
+                +91 70574 80940
               </a>
               . We aim to respond within 1–2 business days.
             </p>
@@ -132,7 +151,6 @@ export default function ContactPage() {
                 { label: "Privacy Policy", href: "/privacy-policy" },
                 { label: "Refund & Cancellation Policy", href: "/refund-policy" },
                 { label: "Return Policy", href: "/return-policy" },
-                { label: "Shipping Policy", href: "/shipping-policy" },
               ].map(({ label, href }) => (
                 <li key={href}>
                   <a

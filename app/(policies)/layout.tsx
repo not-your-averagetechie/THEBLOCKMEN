@@ -37,10 +37,10 @@ export default function PoliciesLayout({ children }: PropsWithChildren) {
           <p className="text-xs text-gray-400">
             Email:{" "}
             <a
-              href="mailto:hello@blockmen.io"
+              href="mailto:talent@theblockmen.com"
               className="text-purple-600 hover:underline"
             >
-              hello@blockmen.io
+              talent@theblockmen.com
             </a>{" "}
             &bull; Website:{" "}
             <a
