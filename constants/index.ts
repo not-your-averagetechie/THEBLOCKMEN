@@ -237,11 +237,6 @@ export const FOOTER_DATA = [
         icon: null,
         link: "/refund-policy",
       },
-      {
-        name: "Return Policy",
-        icon: null,
-        link: "/return-policy",
-      },
     ],
   },
 ] as const;

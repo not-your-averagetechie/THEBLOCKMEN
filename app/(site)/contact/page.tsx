@@ -150,7 +150,6 @@ export default function ContactPage() {
                 { label: "Terms & Conditions", href: "/terms" },
                 { label: "Privacy Policy", href: "/privacy-policy" },
                 { label: "Refund & Cancellation Policy", href: "/refund-policy" },
-                { label: "Return Policy", href: "/return-policy" },
               ].map(({ label, href }) => (
                 <li key={href}>
                   <a
