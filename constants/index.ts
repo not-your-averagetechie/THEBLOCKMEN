@@ -242,11 +242,6 @@ export const FOOTER_DATA = [
         icon: null,
         link: "/return-policy",
       },
-      {
-        name: "Shipping Policy",
-        icon: null,
-        link: "/shipping-policy",
-      },
     ],
   },
 ] as const;
